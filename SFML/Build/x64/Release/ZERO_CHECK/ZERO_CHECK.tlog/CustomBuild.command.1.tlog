@@ -1,0 +1,10 @@
+^C:\USERS\SITIZ\SOURCE\REPOS\SFML\BUILD\CMAKEFILES\CDACB2DD9C3954973F5ADBFE6104887F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sitiz/source/repos/SFML -BC:/Users/sitiz/source/repos/SFML/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/sitiz/source/repos/SFML/Build/DemoGame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,26 @@
+﻿  Building Custom Rule C:/Users/sitiz/source/repos/SFML/CMakeLists.txt
+  main.cpp
+  Player.cpp
+  GameController.cpp
+C:\Users\sitiz\source\repos\SFML\GameController.cpp(9,41): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\sitiz\source\repos\SFML\GameController.cpp(10,42): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\sitiz\source\repos\SFML\GameController.cpp(33,41): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\sitiz\source\repos\SFML\GameController.cpp(34,42): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Generating Code...
+  MyExecutable.vcxproj -> C:\Users\sitiz\source\repos\SFML\Build\Release\MyExecutable.exe

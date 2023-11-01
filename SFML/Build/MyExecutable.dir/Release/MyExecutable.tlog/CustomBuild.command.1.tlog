@@ -1,0 +1,10 @@
+^C:\USERS\SITIZ\SOURCE\REPOS\SFML\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sitiz/source/repos/SFML -BC:/Users/sitiz/source/repos/SFML/Build --check-stamp-file C:/Users/sitiz/source/repos/SFML/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
